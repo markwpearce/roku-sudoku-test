@@ -27,7 +27,7 @@ ROKU_PASSWORD=<Developer password>
 
 and run `BrightScriptDebug: Launch From ENV`
 
-## Running from Command line
+### Running from Command line
 
 Run `npm run build`
 

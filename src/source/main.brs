@@ -1,5 +1,5 @@
 sub main(args)
-  print "Roku Sudo Test"
+  print "Roku Sudoku Test"
 
   ' Create the Screen object and main message port
   screen = CreateObject("roSGScreen")
