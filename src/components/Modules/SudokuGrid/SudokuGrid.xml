@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="SudokuGrid" extends="Group">
+  <script type="text/brightscript" uri="SudokuGrid.brs" />
+  <children>
+    <LayoutGroup id="container">
+      <LayoutGroup id="row1" layoutDirection="horiz">
+        <SudokuCell id="0_0" />
+        <SudokuCell id="0_1" />
+        <SudokuCell id="0_2" />
+      </LayoutGroup>
+      <LayoutGroup id="row2" layoutDirection="horiz">
+        <SudokuCell id="1_0" />
+        <SudokuCell id="1_1" />
+        <SudokuCell id="1_2" />
+      </LayoutGroup>
+      <LayoutGroup id="row3" layoutDirection="horiz">
+        <SudokuCell id="2_0" />
+        <SudokuCell id="2_1" />
+        <SudokuCell id="2_2" />
+      </LayoutGroup>
+    </LayoutGroup>
+  </children>
+</component>

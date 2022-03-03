@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="SudokuCell" extends="Group">
+  <script type="text/brightscript" uri="SudokuCell.brs" />
+  <interface>
+    <field id="text" type="string" alias="number.text" />
+    <function name="updateFocus" />
+  </interface>
+  <children>
+    <Rectangle id="outline" width="210" height="210" color="#000000">
+      <Rectangle id="background" width="200" height="200" translation="[5,5]" color="#0000aa">
+        <Label id="number" width="200" height="200" text="-" horizAlign="center" vertAlign="center" />
+      </Rectangle>
+    </Rectangle>
+  </children>
+</component>

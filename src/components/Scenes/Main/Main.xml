@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="Main" extends="Scene">
+  <script type="text/brightscript" uri="Main.brs" />
+  <children>
+    <SudokuGrid id="grid" translation="[500, 300]" />
+  </children>
+</component>

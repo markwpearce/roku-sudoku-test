@@ -1,0 +1,13 @@
+{
+  "rootDir": "src",
+  "files": ["**/*"],
+  "sourceMap": true,
+  "stagingFolderPath": "dist",
+  "retainStagingFolder": true,
+  "diagnosticFilters": [
+    {
+      "src": "**/components/Tasks/TrackerTask.xml",
+      "codes": [1067]
+    }
+  ]
+}
