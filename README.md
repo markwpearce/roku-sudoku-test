@@ -1,6 +1,6 @@
 # Roku Sudoku Test Sample App
 
-Sample Roku App in SceneGraph that shows basic Layout and user interaction
+Sample Roku App in SceneGraph that shows basic layout and user interaction
 
 
 ## Setup instructions
